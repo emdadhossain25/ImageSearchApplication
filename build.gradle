@@ -1,16 +1,16 @@
 buildscript {
     ext {
         kotlinVersion = '1.4.0'
-        navigationVersion = '2.3.0'
-        hiltVersion = '2.28.3-alpha'
+        navigationVersion = '2.4.1'
+        hiltVersion = '2.40.1'
     }
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.0.1"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
 
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
@@ -32,8 +32,8 @@ task clean(type: Delete) {
 ext {
     // Sdk and tools
     minSdkVersion = 21
-    targetSdkVersion = 29
-    compileSdkVersion = 29
+    targetSdkVersion = 32
+    compileSdkVersion = 32
 
     // App dependencies
     appCompatVersion = '1.2.0'

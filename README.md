@@ -14,4 +14,4 @@ I am going to use Only Network Api calling for repository for this app, as main 
 is fetching internet data using paging and live data.
 
 ![plot](/app/src/main/res/drawable/architecture_image.png)
-### build.gradle (app)
+
