@@ -1,5 +1,5 @@
 *.iml
-/app/token.txt
+app/token.txt
 .gradle
 /local.properties
 /.idea/caches
