@@ -13,5 +13,5 @@ As a list of technologies I am going to use below given Android Components for t
 I am going to use Only Network Api calling for repository for this app, as main focus for this app 
 is fetching internet data using paging and live data.
 
-![plot](/home/misl/StudioProjects/ImageSearchApplication/app/src/main/res/drawable/architecture_image.png)
+![plot](/app/src/main/res/drawable/architecture_image.png)
 ### build.gradle (app)
